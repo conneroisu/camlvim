@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/camlvim/META"
+  "_build/install/default/lib/camlvim/dune-package"
+  "_build/install/default/lib/camlvim/opam"
+]
+bin: [
+  "_build/install/default/bin/camlvim"
+]

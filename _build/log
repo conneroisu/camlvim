@@ -1,4 +1,4 @@
-# dune build
+# dune exec camlvim
 # OCAMLPARAM: unset
 # Shared cache: disabled
 # Shared cache location: /home/conner/.cache/dune/db
@@ -20,10 +20,4 @@
 #        }
 #  ; instrument_with = []
 #  }
-$ /home/conner/.opam/default/bin/ocamlc.opt -config > /tmp/dune_97b119_output
-$ (cd _build/default && /home/conner/.opam/default/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I bin/.main.eobjs/byte -I bin/.main.eobjs/native -I /home/conner/.opam/default/lib/base -I /home/conner/.opam/default/lib/base/base_internalhash_types -I /home/conner/.opam/default/lib/base/caml -I /home/conner/.opam/default/lib/base/shadow_stdlib -I /home/conner/.opam/default/lib/sexplib0 -I lib/.camlvim.objs/byte -I lib/.camlvim.objs/native -intf-suffix .ml -no-alias-deps -opaque -o bin/.main.eobjs/native/dune__exe__Main.cmx -c -impl bin/main.ml)
-> File "bin/main.ml", line 3, characters 42-43:
-> 3 | Printf.sprintf (if true then ("%d":('a,'b).format) else ("%d ":('a,'b).format)) 2;;
->                                               ^
-> Error: Syntax error
-[2]
+$ /home/conner/.opam/default/bin/ocamlc.opt -config > /tmp/dune_3f60d3_output

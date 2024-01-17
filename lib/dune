@@ -1,3 +1,2 @@
 (library
- (name camlvim)
- (libraries base))
+ (name camlvim))
